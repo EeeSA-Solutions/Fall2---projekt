@@ -13,6 +13,8 @@ namespace Fall_nr_2_Örfu
     /// </summary>
     class Program
     {
+
+        // fasdlfads
         static internal List<IKontakt> privatKontaktLista = new List<IKontakt>();
         static internal List<IKontakt> jobbKontaktLista = new List<IKontakt>();
         static void Main(string[] args)

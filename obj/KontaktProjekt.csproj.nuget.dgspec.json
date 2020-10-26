@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Atom\\Desktop\\Fullstack dev. courses\\KURS1- objekt orienterad Csharp\\OOPCSharp\\KontaktProjekt\\KontaktProjekt.csproj": {}
+    "C:\\Users\\Atom\\Desktop\\Fullstack dev. courses\\KURS1- objekt orienterad Csharp\\OOPCSharp\\repo\\Fall2---projekt\\KontaktProjekt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Atom\\Desktop\\Fullstack dev. courses\\KURS1- objekt orienterad Csharp\\OOPCSharp\\KontaktProjekt\\KontaktProjekt.csproj": {
+    "C:\\Users\\Atom\\Desktop\\Fullstack dev. courses\\KURS1- objekt orienterad Csharp\\OOPCSharp\\repo\\Fall2---projekt\\KontaktProjekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Atom\\Desktop\\Fullstack dev. courses\\KURS1- objekt orienterad Csharp\\OOPCSharp\\KontaktProjekt\\KontaktProjekt.csproj",
+        "projectUniqueName": "C:\\Users\\Atom\\Desktop\\Fullstack dev. courses\\KURS1- objekt orienterad Csharp\\OOPCSharp\\repo\\Fall2---projekt\\KontaktProjekt.csproj",
         "projectName": "KontaktProjekt",
-        "projectPath": "C:\\Users\\Atom\\Desktop\\Fullstack dev. courses\\KURS1- objekt orienterad Csharp\\OOPCSharp\\KontaktProjekt\\KontaktProjekt.csproj",
+        "projectPath": "C:\\Users\\Atom\\Desktop\\Fullstack dev. courses\\KURS1- objekt orienterad Csharp\\OOPCSharp\\repo\\Fall2---projekt\\KontaktProjekt.csproj",
         "packagesPath": "C:\\Users\\Atom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Atom\\Desktop\\Fullstack dev. courses\\KURS1- objekt orienterad Csharp\\OOPCSharp\\KontaktProjekt\\obj\\",
+        "outputPath": "C:\\Users\\Atom\\Desktop\\Fullstack dev. courses\\KURS1- objekt orienterad Csharp\\OOPCSharp\\repo\\Fall2---projekt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Atom\\AppData\\Roaming\\NuGet\\NuGet.Config",
