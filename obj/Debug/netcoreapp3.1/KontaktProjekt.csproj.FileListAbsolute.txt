@@ -1,0 +1,13 @@
+C:\Users\Atom\Desktop\Fullstack dev. courses\KURS1- objekt orienterad Csharp\OOPCSharp\KontaktProjekt\obj\Debug\netcoreapp3.1\KontaktProjekt.csprojAssemblyReference.cache
+C:\Users\Atom\Desktop\Fullstack dev. courses\KURS1- objekt orienterad Csharp\OOPCSharp\KontaktProjekt\obj\Debug\netcoreapp3.1\KontaktProjekt.csproj.CoreCompileInputs.cache
+C:\Users\Atom\Desktop\Fullstack dev. courses\KURS1- objekt orienterad Csharp\OOPCSharp\KontaktProjekt\obj\Debug\netcoreapp3.1\KontaktProjekt.AssemblyInfoInputs.cache
+C:\Users\Atom\Desktop\Fullstack dev. courses\KURS1- objekt orienterad Csharp\OOPCSharp\KontaktProjekt\obj\Debug\netcoreapp3.1\KontaktProjekt.AssemblyInfo.cs
+C:\Users\Atom\Desktop\Fullstack dev. courses\KURS1- objekt orienterad Csharp\OOPCSharp\KontaktProjekt\bin\Debug\netcoreapp3.1\KontaktProjekt.exe
+C:\Users\Atom\Desktop\Fullstack dev. courses\KURS1- objekt orienterad Csharp\OOPCSharp\KontaktProjekt\bin\Debug\netcoreapp3.1\KontaktProjekt.deps.json
+C:\Users\Atom\Desktop\Fullstack dev. courses\KURS1- objekt orienterad Csharp\OOPCSharp\KontaktProjekt\bin\Debug\netcoreapp3.1\KontaktProjekt.runtimeconfig.json
+C:\Users\Atom\Desktop\Fullstack dev. courses\KURS1- objekt orienterad Csharp\OOPCSharp\KontaktProjekt\bin\Debug\netcoreapp3.1\KontaktProjekt.runtimeconfig.dev.json
+C:\Users\Atom\Desktop\Fullstack dev. courses\KURS1- objekt orienterad Csharp\OOPCSharp\KontaktProjekt\bin\Debug\netcoreapp3.1\KontaktProjekt.dll
+C:\Users\Atom\Desktop\Fullstack dev. courses\KURS1- objekt orienterad Csharp\OOPCSharp\KontaktProjekt\bin\Debug\netcoreapp3.1\KontaktProjekt.pdb
+C:\Users\Atom\Desktop\Fullstack dev. courses\KURS1- objekt orienterad Csharp\OOPCSharp\KontaktProjekt\obj\Debug\netcoreapp3.1\KontaktProjekt.dll
+C:\Users\Atom\Desktop\Fullstack dev. courses\KURS1- objekt orienterad Csharp\OOPCSharp\KontaktProjekt\obj\Debug\netcoreapp3.1\KontaktProjekt.pdb
+C:\Users\Atom\Desktop\Fullstack dev. courses\KURS1- objekt orienterad Csharp\OOPCSharp\KontaktProjekt\obj\Debug\netcoreapp3.1\KontaktProjekt.genruntimeconfig.cache
