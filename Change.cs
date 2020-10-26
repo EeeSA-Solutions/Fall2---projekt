@@ -22,13 +22,13 @@ namespace Fall_nr_2_Örfu
 
                             Console.Clear();
                             Lista_hantera.ÖppnarListan(Program.privatKontaktLista);
-                            ChangeList(Program.jobbKontaktLista);
+                            ChangeList(Program.privatKontaktLista);
                             break;
                         case 2:
 
                             Console.Clear();
                             Lista_hantera.ÖppnarListan(Program.jobbKontaktLista);
-                            ChangeList(Program.privatKontaktLista);
+                            ChangeList(Program.jobbKontaktLista);
                             break;
                         case 3:
                             Console.Clear();
@@ -59,22 +59,25 @@ namespace Fall_nr_2_Örfu
         {
             int valMeny1 = 0;
             int a;
-            int b;
-            string välj = "Välj kontakt du vill ändra med hjälp av siffran framför dennes namn. ";
+            int b; 
+            string välj = "\nVälj kontakt du vill ändra med hjälp av siffran framför dennes namn. ";
+            Lista_hantera.TextToColor(välj);
+
+            a = Convert.ToInt32(Console.ReadLine());
+            b = (a - 1);
+
             do
             {
                 try
                 {
                     Console.Clear();
+                    Console.WriteLine($"{KontaktLista.ElementAt(b).Namn} | {KontaktLista.ElementAt(b).Address} | {KontaktLista.ElementAt(b).Nummer} | {KontaktLista.ElementAt(b).Epost}\n");
                     Console.WriteLine("Vad vill du ändra?\n1. Namn | 2. Address | 3. Nummer | 4. Email ");
                     valMeny1 = Convert.ToInt32(Console.ReadLine());
                     switch (valMeny1)
                     {
                         case 1:
-                            Lista_hantera.TextToColor(välj);
-                            Lista_hantera.ÖppnarListan(KontaktLista);
-                            a = Convert.ToInt32(Console.ReadLine());
-                            b = (a - 1);
+
                             Console.WriteLine($"Skriv in det nya namnet för {KontaktLista.ElementAt(b).Namn}");
                             string newName = Validator.ValidateName(Console.ReadLine());
                             KontaktLista.ElementAt(b).Namn = newName;
@@ -82,10 +85,7 @@ namespace Fall_nr_2_Örfu
                             Lista_hantera.VisaLista();
                             break;
                         case 2:
-                            Lista_hantera.TextToColor(välj);
-                            Lista_hantera.ÖppnarListan(KontaktLista);
-                            a = Convert.ToInt32(Console.ReadLine());
-                            b = (a - 1);
+
                             Console.WriteLine($"Skriv in en ny adress till {KontaktLista.ElementAt(b).Namn}");
                             string newAdress = Validator.ValidateName(Console.ReadLine());
                             KontaktLista.ElementAt(b).Address = newAdress;
@@ -93,10 +93,7 @@ namespace Fall_nr_2_Örfu
                             Lista_hantera.VisaLista();
                             break;
                         case 3:
-                            Lista_hantera.TextToColor(välj);
-                            Lista_hantera.ÖppnarListan(KontaktLista);
-                            a = Convert.ToInt32(Console.ReadLine());
-                            b = (a - 1);
+
                             Console.WriteLine($"Skriv in ett nytt mobilnummer till {KontaktLista.ElementAt(b).Namn}");
                             string newNumber = Validator.ValidateNumber(Console.ReadLine());
                             KontaktLista.ElementAt(b).Nummer = newNumber;
@@ -104,12 +101,9 @@ namespace Fall_nr_2_Örfu
                             Lista_hantera.VisaLista();
                             break;
                         case 4:
-                            Lista_hantera.TextToColor(välj);
-                            Lista_hantera.ÖppnarListan(KontaktLista);
-                            a = Convert.ToInt32(Console.ReadLine());
-                            b = (a - 1);
+
                             Console.WriteLine($"Skriv in ny email till {KontaktLista.ElementAt(b).Namn}");
-                            string newEmail = Console.ReadLine();
+                            string newEmail = Validator.ValidateName(Console.ReadLine());
                             KontaktLista.ElementAt(b).Epost = newEmail;
                             Console.Clear();
                             Lista_hantera.VisaLista();

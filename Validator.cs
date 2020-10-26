@@ -17,7 +17,7 @@ namespace Fall_nr_2_Örfu
 
         public static string ValidateNumber(string name)
         {
-            if (!name.All(char.IsDigit))
+            if (name == string.Empty || !name.All(char.IsDigit))
                 throw new Exception("Ett nummer får bara innehålla siffror!");
             else
                 return name;
